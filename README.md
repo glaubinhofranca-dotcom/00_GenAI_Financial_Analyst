@@ -40,12 +40,3 @@ It features a **Hybrid Architecture**:
 
 **Glauber Rocha**
 *Data Scientist & AI Engineer*
-
-### 🚀 O Passo Seguinte (Rodar no Terminal)
-
-**Não copie isto para o arquivo.** Depois de salvar o arquivo acima, vá para o terminal do VS Code e rode estes comandos para enviar a correção:
-
-   ```bash
-   git add .
-   git commit -m "Fix: Corrected README formatting and removed instructions"
-   git push
