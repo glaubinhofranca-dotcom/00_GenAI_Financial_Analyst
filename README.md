@@ -18,24 +18,16 @@ It features a **Hybrid Architecture**:
    ```bash
    pip install streamlit PyPDF2 langchain-text-splitters langchain-openai langchain-community faiss-cpu
 
-```
 
 2. **Run Cloud Mode (OpenAI):**
 *Best for high accuracy. Requires an API Key.*
-```bash
-streamlit run app.py
-
-```
-
+   ```bash
+   streamlit run app.py
 
 3. **Run Local Mode (Ollama):**
 *Best for privacy & zero cost. Requires pulling the model first (`ollama run tinyllama`).*
-```bash
-streamlit run app_local.py
-
-```
-
-
+   ```bash
+   streamlit run app_local.py
 
 ## 💼 Business Value
 
@@ -49,17 +41,11 @@ streamlit run app_local.py
 **Glauber Rocha**
 *Data Scientist & AI Engineer*
 
-```
-
----
-
 ### 🚀 O Passo Seguinte (Rodar no Terminal)
 
 **Não copie isto para o arquivo.** Depois de salvar o arquivo acima, vá para o terminal do VS Code e rode estes comandos para enviar a correção:
 
-```bash
-git add .
-git commit -m "Fix: Corrected README formatting and removed instructions"
-git push
-
-```
+   ```bash
+   git add .
+   git commit -m "Fix: Corrected README formatting and removed instructions"
+   git push
