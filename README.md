@@ -32,26 +32,34 @@ It features a **Hybrid Architecture**:
 1.  Python 3.10+
 2.  [Ollama](https://ollama.com/) installed (for Local mode).
 
-### Installation
-```bash
-pip install streamlit PyPDF2 langchain-text-splitters langchain-openai langchain-community faiss-cpu
+## ⚙️ Installation
 
-1️⃣ Running Cloud Mode (OpenAI)
-Requires an API Key.
+1. **Install Dependencies:**
+   ```bash
+   pip install streamlit PyPDF2 langchain-text-splitters langchain-openai langchain-community faiss-cpu
+Run Cloud Mode (OpenAI): Best for high accuracy. Requires an API Key.
 
 Bash
+
 streamlit run app.py
-
-2️⃣ Running Local Mode (Ollama)
-Requires pulling the model first (ollama run tinyllama).
+Run Local Mode (Ollama): Best for privacy & zero cost. Requires pulling the model first (ollama run tinyllama).
 
 Bash
+
 streamlit run app_local.py
-
 💼 Business Value
-Cost Optimization: Use Local mode for development/testing and Cloud mode for final reports.
+💰 Cost Optimization: Use Local mode for development/testing and Cloud mode for final executive reports.
 
-Data Privacy: Local mode ensures sensitive financial data is processed entirely on-premise.
+🔒 Data Privacy: Local mode ensures sensitive financial data is processed entirely on-premise (offline), never leaving your secure environment.
+
+
+### 🚀 Atualizando no GitHub
+Depois de salvar o arquivo com essa mudança, mande para a nuvem:
+
+```bash
+git add .
+git commit -m "Fix: Formatting in README installation section"
+git push
 
 Author
 Glauber Rocha - Data Scientist & AI Engineer
