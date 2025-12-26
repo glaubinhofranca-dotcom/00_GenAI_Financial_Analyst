@@ -12,55 +12,54 @@ It features a **Hybrid Architecture**:
 1.  **Cloud Mode (Production):** Uses OpenAI (GPT-3.5) for high-precision, client-facing answers.
 2.  **Local Mode (Privacy/Dev):** Uses Ollama (TinyLlama/Phi-3) to run 100% offline and free on local hardware.
 
-## 🛠️ Technical Architecture
-
-### ☁️ Option A: Cloud (High Accuracy)
-* **LLM:** GPT-3.5-Turbo (OpenAI)
-* **Embeddings:** OpenAI Embeddings (ada-002)
-* **Pros:** Best reasoning capability, fast response.
-* **Cons:** Costs per token ($).
-
-### 💻 Option B: Local (Privacy & Free)
-* **LLM:** TinyLlama (1.1B) or Phi-3 (3.8B) running via **Ollama**.
-* **Embeddings:** HuggingFace (`all-MiniLM-L6-v2`) running on CPU.
-* **Pros:** 100% Free, Data never leaves the laptop (Privacy).
-* **Cons:** Depends on local RAM/CPU.
-
-## 🚀 How to Run
-
-### Prerequisites
-1.  Python 3.10+
-2.  [Ollama](https://ollama.com/) installed (for Local mode).
-
 ## ⚙️ Installation
 
 1. **Install Dependencies:**
    ```bash
    pip install streamlit PyPDF2 langchain-text-splitters langchain-openai langchain-community faiss-cpu
-Run Cloud Mode (OpenAI): Best for high accuracy. Requires an API Key.
 
-Bash
+```
 
+2. **Run Cloud Mode (OpenAI):**
+*Best for high accuracy. Requires an API Key.*
+```bash
 streamlit run app.py
-Run Local Mode (Ollama): Best for privacy & zero cost. Requires pulling the model first (ollama run tinyllama).
 
-Bash
+```
 
+
+3. **Run Local Mode (Ollama):**
+*Best for privacy & zero cost. Requires pulling the model first (`ollama run tinyllama`).*
+```bash
 streamlit run app_local.py
-💼 Business Value
-💰 Cost Optimization: Use Local mode for development/testing and Cloud mode for final executive reports.
 
-🔒 Data Privacy: Local mode ensures sensitive financial data is processed entirely on-premise (offline), never leaving your secure environment.
-
-Author
-Glauber Rocha Data Scientist & AI Engineer
+```
 
 
-### 🚀 Como Atualizar (No Terminal)
 
-Depois de corrigir o arquivo acima (e salvar), rode os comandos no terminal para limpar o erro do histórico:
+## 💼 Business Value
+
+* **💰 Cost Optimization:** Use **Local mode** for development/testing and **Cloud mode** for final executive reports.
+* **🔒 Data Privacy:** Local mode ensures sensitive financial data is processed entirely on-premise (offline), never leaving your secure environment.
+
+---
+
+### Author
+
+**Glauber Rocha**
+*Data Scientist & AI Engineer*
+
+```
+
+---
+
+### 🚀 O Passo Seguinte (Rodar no Terminal)
+
+**Não copie isto para o arquivo.** Depois de salvar o arquivo acima, vá para o terminal do VS Code e rode estes comandos para enviar a correção:
 
 ```bash
 git add .
-git commit -m "Fix: Formatting README and removing instruction text"
+git commit -m "Fix: Corrected README formatting and removed instructions"
 git push
+
+```
