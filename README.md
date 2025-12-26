@@ -52,14 +52,15 @@ streamlit run app_local.py
 
 🔒 Data Privacy: Local mode ensures sensitive financial data is processed entirely on-premise (offline), never leaving your secure environment.
 
+Author
+Glauber Rocha Data Scientist & AI Engineer
 
-### 🚀 Atualizando no GitHub
-Depois de salvar o arquivo com essa mudança, mande para a nuvem:
+
+### 🚀 Como Atualizar (No Terminal)
+
+Depois de corrigir o arquivo acima (e salvar), rode os comandos no terminal para limpar o erro do histórico:
 
 ```bash
 git add .
-git commit -m "Fix: Formatting in README installation section"
+git commit -m "Fix: Formatting README and removing instruction text"
 git push
-
-Author
-Glauber Rocha - Data Scientist & AI Engineer
